@@ -5,3 +5,5 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+queen = Video.create(title: 'Bohemian Rhapsody Piano Cover', vid_url: "https://www.youtube.com/embed/lZ9F6w3bQWI")
