@@ -1,7 +1,10 @@
-<h1>Videos</h1>
 <section>
+  <ul>
   <% @videos.each do |video| %>
-      <h2><%= link_to video.title, video_path(video) %></h2>
-      <iframe width="560" height="315" src="<%= video.vid_url %>" frameborder="0" allowfullscreen></iframe>
+      <li id="video_<%=video.id%>">
+        <h2><%= link_to video.title, video_path(video) %></h2>
+        <iframe width="560" height="315" src="<%= video.vid_url %>" frameborder="0" allowfullscreen></iframe>
+      </li>
   <% end %>
+</ul>
 </section>

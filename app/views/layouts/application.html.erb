@@ -7,8 +7,34 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <header>
+    <div class="left">
+      <h1>Pianogram</h1>
+    </div>
+
+    <div class="right">
+      <nav id="nav">
+        <ul>
+          <li class="side-by-side">About</li>
+          <li class="side-by-side">Profile</li>
+          <li class="side-by-side">Login</li>
+          <li class="side-by-side">Sign Up</li>
+        </ul>
+      </nav>
+    </div>
+
+  </header>
 
 <%= yield %>
+
+  <footer>
+    <ul class="social">
+      <li class="side-by-side">Github</li>
+      <li class="side-by-side">Twitter</li>
+      <li class="side-by-side">Facebook</li>
+      <li class="side-by-side">Instagram</li>
+    </ul>
+  </footer>
 
 </body>
 </html>
