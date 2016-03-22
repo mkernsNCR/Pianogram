@@ -1,10 +1,13 @@
-<section>
-  <ul>
-  <% @videos.each do |video| %>
-      <li id="video_<%=video.id%>">
-        <h2><%= link_to video.title, video_path(video) %></h2>
-        <iframe width="560" height="315" src="<%= video.vid_url %>" frameborder="0" allowfullscreen></iframe>
-      </li>
-  <% end %>
-</ul>
-</section>
+<div class="container">
+  <ul class="vid-container">
+    <div class="btn">
+      <button><%= link_to "Add New Video", new_video_path %></button>
+    </div>
+    <% @videos.each do |video| %>
+        <li id="video_<%=video.id%>">
+          <h2><%= link_to video.title, video_path(video) %></h2>
+          <iframe width="560" height="315" src="<%= video.vid_url %>" frameborder="0" allowfullscreen></iframe>
+        </li>
+    <% end %>
+  </ul>
+</div>

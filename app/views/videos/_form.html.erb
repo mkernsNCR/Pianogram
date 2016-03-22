@@ -1,0 +1,7 @@
+<%= form_for @video do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+  <%= f.label :"video url" %>
+  <%= f.text_area :vid_url %>
+  <%= f.submit %>
+<% end %>
