@@ -1,2 +1,2 @@
-<h2 class="container"><%= @video.title%></h2>
+<h2 class="container"><%= @video.title%> - <%= link_to "Edit", edit_video_path(@video) %> - <%= link_to "Delete", video_path(@video), method: :delete %></h2>
 <iframe width="560" height="315" src="<%= @video.vid_url %>" frameborder="0" allowfullscreen></iframe>
