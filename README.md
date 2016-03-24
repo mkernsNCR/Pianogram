@@ -21,3 +21,16 @@
 
 <h3>Installation Instructions</h3>
 <p>In order to get started click <a href="https://pianogram.herokuapp.com/">here</a> to launch the app. Once your on the app, watch my Walk-Through video <a href="https://youtu.be/Bt3NWxpw9t4">here</a> and fast-forward to 1:15 for video upload instructions.</p>
+
+<h3>Unsolved Problems</h3>
+<p>Some things I will be revisiting include:
+  <ul>
+    <li>Adding Users</li>
+    <li>Adding Users authentication</li>
+    <li>Enabling User Sign Up and Sign in functionality</li>
+    <li>Adding social handle login</li>
+    <li>Cleaner CSS spacing elements</li>
+    <li>Adding links to footer</li>
+    <li>Adding User Profiles</li>
+  </ul>
+</p>
