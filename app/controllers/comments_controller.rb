@@ -19,7 +19,7 @@ class CommentsController < ApplicationController
   def update
     @video = Video.find(params[:video_id])
     @comment = Comment.find(params[:id])
-    @comment.update(comment_params.merge)
+    @comment.update(comment_params)
     redirect_to video_path(@video)
   end
 
