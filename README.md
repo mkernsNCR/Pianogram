@@ -2,7 +2,7 @@
 
 <h2>Checkout my User Stories!
 <br>
-<a href="pseudo.md">Click here.</a></h2>
+<a href="planning/pseudo.md">Click here.</a></h2>
 
 <h3>Checkout my Walk-Through!
 <br>
