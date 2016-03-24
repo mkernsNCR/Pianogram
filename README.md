@@ -6,4 +6,4 @@
 
 <h3>Checkout my Walk-Through!
 <br>
-<a href="https://youtu.be/Bt3NWxpw9t4"></a></h3>
+<a href="https://youtu.be/Bt3NWxpw9t4">Click here.</a></h3>
