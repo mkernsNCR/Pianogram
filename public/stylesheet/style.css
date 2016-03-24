@@ -10,7 +10,7 @@ header {
   height: 60px;
   width: 100%;
   border-bottom: 1px solid grey;
-  background-image: url("logo.png");
+  background-image: url("/images/piano.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -40,8 +40,8 @@ div {
   display: block;
 }
 
-h1 {
-  margin: 5%;//Revisit spacing here
+h1, h2 {
+  margin: 5%;/*Revisit spacing here*/
 }
 
 a {
@@ -62,7 +62,7 @@ a:hover {
   color: blue;
 }
 
-.container, h2 { //Revisit spacing here
+.container, h2 { /*revisit spacing here*/
   padding-top: 25px;
 }
 
@@ -90,7 +90,7 @@ a:hover {
 
 .social {
   margin-top: 15px;
-  padding-left: 38%; /*revist centering*/
+  padding-left: 38%; /*revisit centering*/
 }
 
 #nav {

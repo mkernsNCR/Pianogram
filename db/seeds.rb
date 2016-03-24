@@ -7,6 +7,7 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 Video.destroy_all
+Comment.destroy_all
 
 legend = Video.create!(title: 'Ordinary People', vid_url: "https://www.youtube.com/embed/lZ9F6w3bQWI")
 
@@ -18,4 +19,4 @@ queen = Video.create!(title: 'Bohemian Rhapsody', vid_url: "https://www.youtube.
 
 queen2 = Video.create!(title: 'Bohemian Rhapsody', vid_url: "https://www.youtube.com/embed/rptV6K7nqu0")
 
-# legend.comments.create!(text: "???"")
+legend.Comment.create!(body: "I love this!")
