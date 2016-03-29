@@ -20,7 +20,7 @@
 <p>I took a "small picture, big picture" approach. The first step I took was to set up my video model, controller, migration, seed, and view files completely first before I touched my comment files.</p>
 
 <h3>Installation Instructions</h3>
-<p>In order to get started click <a href="https://pianogram.herokuapp.com/">here</a> to launch the app. Once your on the app, watch my Walk-Through video <a href="https://youtu.be/Bt3NWxpw9t4">here</a> and fast-forward to 1:15 for video upload instructions.</p>
+<p>In order to get started click <a href="https://pianogram.herokuapp.com/">here</a> to launch the app. Once your on the app, watch my Walk-Through video <a href="https://www.youtube.com/watch?v=Oliy6azYiKw&feature=youtu.be">here</a> and fast-forward to 1:15 for video upload instructions.</p>
 
 <h3>Unsolved Problems</h3>
 <p>Some things I will be revisiting include:
